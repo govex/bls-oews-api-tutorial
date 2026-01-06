@@ -1,0 +1,19 @@
+[project]
+name = "bls-oews-api-tutorial"
+version = "0.1.0"
+description = "Tutorial and examples for querying the BLS OEWS API"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Bloomberg Center for Government Excellence"}
+]
+
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/govex/bls-oews-api-tutorial"
+Issues = "https://github.com/govex/bls-oews-api-tutorial/issues"

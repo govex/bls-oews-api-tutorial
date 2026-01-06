@@ -1,0 +1,118 @@
+{
+  "survey_codes": {
+    "OE": "Occupational Employment and Wage Statistics"
+  },
+  "seasonal_codes": {
+    "U": "Not seasonally adjusted",
+    "S": "Seasonally adjusted",
+    "note": "Only U used for OEWS survey"
+  },
+  "areatype_codes": {
+    "M": "Metropolitan or nonmetropolitan statistical Area",
+    "S": "State",
+    "N": "National"
+  },
+  "area_codes": {
+    "M": {
+      "description": "Metropolitan or nonmetropolitan Areas",
+      "code_format": "7-digit CBSA code, zero-padded on left",
+      "examples": {
+        "0011500": "Anniston-Oxford, AL",
+        "0037980": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+        "7200006": "Puerto Rico nonmetropolitan area"
+      },
+      "note": "In 2004, BLS shifted from using 1990 MSA codes to CBSA codes"
+    }, 
+    "S": {
+      "description": "State",
+      "code_format": "2-digit state FIPS code followed by five zeros",
+      "examples": {
+        "0100000": "Alabama",
+        "1100000": "District of Columbia",
+        "7200000": "Puerto Rico"
+      }
+    },
+    "N": {
+      "description": "National",
+      "code_format": "Seven zeros",
+      "examples": {
+        "0000000": "National"
+      }
+    }
+  },
+  "industry_codes": {
+    "description": "Classifies businesses/employers (North American Industry Classification System (NAICS) sector, 3-digit, most 4-digit, and selected 5- and 6-digit industry levels)",
+    "code_format": "6-digit codes without dashes",
+    "major_industry_sectors": {
+      "000000": "All industries (cross-industry)",
+      "110000": "Agriculture, Forestry, Fishing and Hunting",
+      "210000": "Mining, Quarrying, and Oil and Gas Extraction",
+      "220000": "Utilities",
+      "230000": "Construction",
+      "310000": "Manufacturing",
+      "420000": "Wholesale Trade",
+      "440000": "Retail Trade",
+      "480000": "Transportation and Warehousing",
+      "510000": "Information",
+      "520000": "Finance and Insurance",
+      "530000": "Real Estate and Rental and Leasing",
+      "540000": "Professional, Scientific, and Technical Services",
+      "550000": "Management of Companies and Enterprises",
+      "560000": "Administrative and Support and Waste Management",
+      "610000": "Educational Services",
+      "620000": "Health Care and Social Assistance",
+      "710000": "Arts, Entertainment, and Recreation",
+      "720000": "Accommodation and Food Services",
+      "810000": "Other Services (except Public Administration)",
+      "920000": "Public Administration"
+    }
+  },
+  "occupation_codes": {
+    "description": "Classifies jobs/workers (Office of Management and Budgets 2018 Standard Occupational Classification (SOC) system)",
+    "code_format": "6 digits without dashes",
+    "major_occupational_groups": {
+      "000000": "All Occupations",
+      "110000": "Management Occupations",
+      "130000": "Business and Financial Operations Occupations",
+      "150000": "Computer and Mathematical Occupations",
+      "170000": "Architecture and Engineering Occupations",
+      "190000": "Life, Physical, and Social Science Occupations",
+      "210000": "Community and Social Service Occupations",
+      "230000": "Legal Occupations",
+      "250000": "Educational Instruction and Library Occupations",
+      "270000": "Arts, Design, Entertainment, Sports, and Media Occupations",
+      "290000": "Healthcare Practitioners and Technical Occupations",
+      "310000": "Healthcare Support Occupations",
+      "330000": "Protective Service Occupations",
+      "350000": "Food Preparation and Serving Related Occupations",
+      "370000": "Building and Grounds Cleaning and Maintenance Occupations",
+      "390000": "Personal Care and Service Occupations",
+      "410000": "Sales and Related Occupations",
+      "430000": "Office and Administrative Support Occupations",
+      "450000": "Farming, Fishing, and Forestry Occupations",
+      "470000": "Construction and Extraction Occupations",
+      "490000": "Installation, Maintenance, and Repair Occupations",
+      "510000": "Production Occupations",
+      "530000": "Transportation and Material Moving Occupations"
+    }
+  },
+  "datatype_codes": {
+    "01": "Employment",
+    "02": "Employment percent relative standard error",
+    "03": "Hourly mean wage",
+    "04": "Annual mean wage",
+    "05": "Wage percent relative standard error",
+    "06": "Hourly 10th percentile wage",
+    "07": "Hourly 25th percentile wage",
+    "08": "Hourly median wage",
+    "09": "Hourly 75th percentile wage",
+    "10": "Hourly 90th percentile wage",
+    "11": "Annual 10th percentile wage",
+    "12": "Annual 25th percentile wage",
+    "13": "Annual median wage",
+    "14": "Annual 75th percentile wage",
+    "15": "Annual 90th percentile wage",
+    "16": "Employment per 1,000 jobs",
+    "17": "Location Quotient"
+  }
+}
