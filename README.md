@@ -93,6 +93,13 @@ print("Full API response:")
 data
 ```
 
+### Batch Request Example
+
+For querying multiple series efficiently, see [examples/batch_request.py](examples/batch_request.py). This example demonstrates querying median and mean annual wages for all major occupations across all US states.
+```bash
+python examples/batch_request.py
+```
+
 ## Additional Resources
 
 - [OEWS Overview](https://www.bls.gov/oes/)
